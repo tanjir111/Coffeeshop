@@ -1,0 +1,124 @@
+#name{
+    float: left;
+    font-family:Brush Script MT;
+    display: block;
+    color: rgb(8, 253, 253);
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration: none;
+    font-size: 40px;
+}
+.unl{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: aliceblue;
+    position:relative;
+}
+.nav a:hover{
+    background-color: #af4c91;
+}
+  
+.nav a:active {
+    background-color: #f506cd;
+}
+.nav{
+    float: right;
+}
+.nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+.pic{
+    background-image: url('coffee.gif');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: 100% 100%;
+    padding: 21% 5% .1% 30%;
+    font-size: 440%;
+    text-shadow: 6px 6px 6px black;
+    color:  rgb(27, 216, 207);
+    transition-property: font-size;
+    transition-duration: 1s;
+}
+
+.pic:hover{
+    font-size: 445%;
+    text-shadow: 8px 8px 8px black;
+}
+#shdow{
+    background-color: rgb(27, 216, 207);
+    transition: 1s;
+}
+#shdow:hover{
+    text-shadow: 4px 4px 4px black;
+}
+#about{
+    position: relative;
+    left: 44%;
+    font-family: Garamond;
+    font-size: 250%;
+    color:aliceblue;
+    text-decoration-line: underline;
+    text-decoration-color: aliceblue;
+}
+#about:hover{
+    text-decoration-color: aliceblue;
+}
+.about{
+    background-color: rgb(27, 216, 207);
+    background-attachment: scroll;
+}
+.about ul{
+    list-style-type: none;
+    padding: 0 2% 0 2%;
+    background-color: rgb(27, 216, 207);
+}
+.sell{
+    float: left;
+    background-image: url('Cafe Para Ti.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: 100% 100%;
+    padding: 25% 5% 15% 4%;
+    font-size: 350%;
+    color: #fa0734;
+}
+.buy{
+    float: right;
+    background-image: url('restaurante.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: 100% 100%;
+    padding: 25% 5% 15% 4%;
+    font-size: 350%;
+    color: #fa0734;
+}
+.cafe{
+    background-image: url('order.png');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: 100% 100%;
+    padding: 18% 5% 22% 3%;
+    font-size: 350%;
+    color: #fa0734;
+}
+.button{
+    padding: .5%;
+    font-size:70%;
+    border-radius: 5pX;
+    color: #1bd8cf;
+    background-color:#fa0734;
+    position: relative;
+    right: 62%;
+    top: 70px;
+
+}
+.button:hover{
+    background-color: #6b0316;
+}
